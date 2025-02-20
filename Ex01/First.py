@@ -1,0 +1,12 @@
+vals = input("Please enter number one and two separated by space: ")
+vals = vals.split(" ")
+val1 = float(vals[0])
+val2 = float(vals[1])
+
+print(f"{val1} + {val2} = {val1 + val2}")
+print(f"{val1} - {val2} = {val1 - val2}")
+print(f"{val1} * {val2} = {val1 * val2}")
+print(f"{val1} / {val2} = {val1 / val2}")
+print(f"{val1} // {val2} = {val1 // val2}")
+print(f"{val1} ** {val2} = {val1 ** val2}")
+print(f"{val1} % {val2} = {val1 % val2}")
